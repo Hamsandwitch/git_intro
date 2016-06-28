@@ -1,0 +1,42 @@
+body {
+	background-color: 7B9997
+}
+.password{
+	font-size: 30px;
+}
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 40px;
+}
+
+.nav li {
+    display: inline;
+    color: #7B9997;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #28738E;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-image: linear-gradient(135deg, 
+                      rgb(254,255,255) 0%,
+                      rgb(221,241,249) 35%,
+                      rgb(160,216,239) 100%);
+    background-size: 200%;
+    transition: 2.0s all linear;
+    height: 100%;
+}
+
+/*
+background-image: linear-gradient(135deg, 
+                      rgb(254,255,255) 0%,
+                      rgb(221,241,249) 35%,
+                      rgb(160,216,239) 100%);
+    background-size: 200%;*/
