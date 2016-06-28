@@ -1,6 +1,13 @@
 body {
 	background-color: 7B9997
 }
+.title{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	font-family: Arial;
+	font-size: 30px
+}
 .password{
 	font-size: 30px;
 }
