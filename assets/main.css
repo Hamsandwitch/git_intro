@@ -1,13 +1,45 @@
 body {
-	background-color: 7B9997
+	background-color: /*#9C9C9C*/ #98B6B5
 }
-.title{
+.navbar-title{
 	margin-top: 15px;
 	margin-bottom: 0px;
 	margin-left: 15px;
 	font-family: Arial;
 	font-size: 30px
 }
+.jumbotron{
+    background: url(../assets/killingit.jpg) no-repeat center top;
+    background-image: url("../assets/killingit.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 5px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1EDCD6;
+    }
+
+.infotable{
+    background-color: #FFFFFF
+}
+
+
 .password{
 	font-size: 30px;
 }
@@ -49,3 +81,80 @@ background-image: linear-gradient(135deg,
     background-size: 200%;*/
 
 /*notes are for retention*/
+
+.jumbotron2{
+    background: url(../assets/schecter1.jpg) no-repeat center top;
+    background-image: url("../assets/schecter1.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 5px;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1EDCD6;
+    }
+    .jumbotron3{
+    background: url(../assets/573213.jpg) no-repeat center top;
+    background-image: url("../assets/573213.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 5px;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1EDCD6;
+    }
+
+    .jumbotron4{
+    background: url(../assets/tuxmsn.jpg) no-repeat center top;
+    background-image: url("../assets/tuxmsn.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 5px;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #1EDCD6;
+    }
