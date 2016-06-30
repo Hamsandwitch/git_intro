@@ -1,12 +1,16 @@
 body {
-	background-color: /*#9C9C9C*/ #98B6B5
+	background-color: #98B6B5
 }
+/*#9C9C9C*/
+/*#85B98B*/
 .navbar-title{
 	margin-top: 15px;
 	margin-bottom: 0px;
 	margin-left: 15px;
 	font-family: Arial;
-	font-size: 30px
+	font-size: 30px;
+    color: #85B98B;
+    text-shadow: 1px 1px;
 }
 .jumbotron{
     background: url(../assets/killingit.jpg) no-repeat center top;
@@ -22,7 +26,7 @@ body {
     padding-top: 5px;
     background-attachment: relative;
     background-position: center center;
-    min-height: 700px;
+    min-height: 500px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -32,17 +36,31 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: #1EDCD6;
+    color: #9C9C9C;
     }
+
+
+.jumbotron .h1, .jumbotron h1 {
+    color: linear-gradient(135deg, 
+                      rgb(66,196,163) 0%,
+                      rgb(43,170,138) 35%,
+                      rgb(28,208,163) 100%);
+
+    text-shadow: 3px 1px;
+}
+
 
 .infotable{
     background-color: #FFFFFF
 }
 
-
+.formPanel{
+    position: relative;
+    position: center;
+}/*
 .password{
-	font-size: 30px;
-}
+	font-size: 20px;
+}*/
 .navbar, .navbar-inverse {
     border-radius: 0;
     border: none;
@@ -73,15 +91,6 @@ body {
     height: 100%;
 }
 
-/*
-background-image: linear-gradient(135deg, 
-                      rgb(254,255,255) 0%,
-                      rgb(221,241,249) 35%,
-                      rgb(160,216,239) 100%);
-    background-size: 200%;*/
-
-/*notes are for retention*/
-
 .jumbotron2{
     background: url(../assets/schecter1.jpg) no-repeat center top;
     background-image: url("../assets/schecter1.jpg");
@@ -95,7 +104,7 @@ background-image: linear-gradient(135deg,
     background-color: initial;
     padding-top: 5px;
     background-position: center center;
-    min-height: 700px;
+    min-height: 500px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -120,7 +129,7 @@ background-image: linear-gradient(135deg,
     background-color: initial;
     padding-top: 5px;
     background-position: center center;
-    min-height: 700px;
+    min-height: 500px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -146,7 +155,7 @@ background-image: linear-gradient(135deg,
     background-color: initial;
     padding-top: 5px;
     background-position: center center;
-    min-height: 700px;
+    min-height: 500px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -157,4 +166,9 @@ background-image: linear-gradient(135deg,
     -o-background-size: cover;
     background-size: cover;
     color: #1EDCD6;
+    }
+
+    .ThreeThings{
+
+        padding-top: 500px;
     }
